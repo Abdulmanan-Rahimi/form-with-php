@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-origin: none;
+}
+
+body {
+    padding: 50px;
+}
+
+main {
+    width: 500px;
+    padding: 30px 20px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+}
+
+main .form-control {
+    padding: 10px;
+}
+
+main .form-control input[type="text"], main .form-control textarea, main .form-control select {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+
+main .form-control input[type="submit"] {
+    padding: 10px 30px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+#error {
+    width: 90%;
+    padding: 10px 5%;
+    background-color: rgba(220, 20, 60, 0.568);
+}
+
+#error li span {
+    font-size: 13px;
+    color: white;
+}
+
+table{
+    width: 100%;
+}
+
+
+table th , table td {
+    text-align: center;
+    padding: 7px;
+    border: solid 1px #000;
+}
+
+table thead {
+    color: white;
+    background-color: rgba(220, 20, 60, 0.7);
+}
+
+section{
+    padding-top: 50px;
+}
